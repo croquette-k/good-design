@@ -1,0 +1,252 @@
+@media (min-width: 900px) {
+  .btn {
+    width: 219px;
+    line-height: 72px;
+    font-size: 18px;
+  }
+  .btn::after {
+    width: 201px;
+    height: 54px;
+  }
+  h2 {
+    font-size: 46px;
+  }
+  h2::after {
+    font-size: 35px;
+    top: 90px;
+  }
+  header {
+    padding: 45px 50px;
+  }
+  header .logo {
+    width: 160px;
+  }
+  header .openbtn {
+    top: 35px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  header .openbtn span {
+    width: 80%;
+    left: 5px;
+  }
+  header .openbtn span:nth-of-type(1) {
+    top: 9px;
+  }
+  header .openbtn span:nth-of-type(2) {
+    top: 25px;
+  }
+  header .openbtn span:nth-of-type(3) {
+    top: 40px;
+  }
+  header .openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    width: 50%;
+  }
+  header .openbtn.active span:nth-of-type(3) {
+    top: 30px;
+    left: 18px;
+    width: 50%;
+  }
+  #g-nav .logo {
+    top: 45px;
+    left: 50px;
+  }
+  #about {
+    margin-top: 260px;
+    padding-bottom: 580px;
+  }
+  #about::after {
+    width: calc(60% + 275px);
+    height: 760px;
+    top: 100px;
+  }
+  #about .about-top p {
+    padding-top: 130px;
+    right: 60%;
+    position: absolute;
+    font-size: 44px;
+  }
+  #about .about-top img {
+    top: 0;
+    width: 50%;
+    height: 393px;
+  }
+  #about .about-bottom {
+    padding-top: 450px;
+  }
+  #about .about-bottom img {
+    width: 41%;
+    height: 370px;
+    position: absolute;
+  }
+  #about .about-bottom .about-text {
+    width: 481px;
+    position: absolute;
+    left: 50%;
+  }
+  #about .about-bottom .about-text p {
+    margin-top: 70px;
+    font-size: 20px;
+  }
+  #works {
+    margin: 0 auto;
+    padding: 0 50px 200px;
+    text-align: left;
+    max-width: 1300px;
+  }
+  #works::after {
+    width: 822px;
+    height: 405px;
+    top: 90px;
+    right: -50px;
+  }
+  #works .works-btn {
+    padding: 50px 0 60px;
+    width: 331px;
+    text-align: center;
+  }
+  #works .works-btn::after {
+    width: 281px;
+    height: 129px;
+    top: 22px;
+    left: 25px;
+  }
+  #works .works-btn span {
+    font-size: 24px;
+    line-height: 2;
+  }
+  #works .works-wrapper {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+  }
+  #works .living {
+    margin-bottom: 50px;
+    width: 45%;
+    max-width: 600px;
+    height: 469px;
+    font-size: 14px;
+  }
+  #works .living::after {
+    width: 235px;
+    height: 523px;
+    top: 50px;
+    left: -100px;
+  }
+  #works .store {
+    width: 45%;
+    max-width: 600px;
+    height: 469px;
+    font-size: 14px;
+    text-align: right;
+  }
+  #works .store::before {
+    width: 822px;
+    height: 400px;
+    top: 167px;
+    left: -100px;
+  }
+  #works .store::after {
+    width: 290px;
+    height: 500px;
+    top: -62px;
+    right: -100px;
+  }
+  #works .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  #showroom {
+    margin: 0 auto;
+    background-image: url(img/showroom.jpg);
+    max-width: 1200px;
+  }
+  #showroom .showroom-wrap {
+    margin-right: 0;
+    margin-left: auto;
+    width: 30%;
+    height: 435px;
+    min-width: 364px;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  #showroom .showroom-wrap::after {
+    height: 388px;
+  }
+  #showroom .showroom-wrap p {
+    padding-top: 138px;
+    font-size: 15px;
+  }
+  #showroom .showroom-wrap p span {
+    font-size: 30px;
+  }
+  #showroom .showroom-wrap a {
+    margin-top: 90px;
+    width: 200px;
+    line-height: 54px;
+    font-size: 18px;
+  }
+  #news {
+    padding: 214px 50px 184px;
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  #news .news-wrap {
+    margin: 116px 0 65px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #news .news-wrap .news-content {
+    margin: 0;
+    width: 30%;
+  }
+  #news .news-wrap .news-content .news-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  #news .news-wrap .news-content .news-text {
+    font-size: 14px;
+  }
+  #contact a {
+    padding: 130px 0;
+    font-size: 15px;
+  }
+  #contact a::after {
+    height: 218px;
+    top: 71px;
+    left: 10%;
+    width: 80%;
+  }
+  #contact a span {
+    font-size: 31px;
+    line-height: 2.5;
+  }
+  footer {
+    height: 644px;
+  }
+  footer div {
+    height: 644px;
+  }
+  footer div .logo {
+    top: 108px;
+    left: 100px;
+  }
+  footer div ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1048px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 600px) {
+  #mainvisual .mainvisual-pc {
+    display: block;
+  }
+  #mainvisual .mainvisual-sp {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */
