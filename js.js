@@ -16,9 +16,9 @@ $(function(){
     const swiper = new Swiper(".swiper", {});
 
     new Swiper('.swiper', {
-        speed: 1000,
+        speed: 2000,
         autoplay: {
-          delay: 5000
+          delay: 2000
         },
         loop: true,
         allowTouchMove: true,
@@ -28,7 +28,7 @@ $(function(){
     new Swiper('.living', {
       speed: 1000,
       autoplay: {
-        delay: 5000
+        delay: 2000
       },
       loop: true,
       allowTouchMove: true,
@@ -38,7 +38,7 @@ $(function(){
     new Swiper('.store', {
       speed: 1000,
       autoplay: {
-        delay: 5000
+        delay: 2000
       },
       loop: true,
       allowTouchMove: true,
