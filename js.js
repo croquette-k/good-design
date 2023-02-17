@@ -21,7 +21,7 @@ $(function(){
           delay: 2000
         },
         loop: true,
-        allowTouchMove: true,
+        allowTouchMove: false,
         parallax: true
       });
 

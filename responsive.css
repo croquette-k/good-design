@@ -161,7 +161,7 @@
   }
   #showroom {
     margin: 0 auto;
-    background-image: url(img/showroom.jpg);
+    background-image: url(img/showroom.webp);
     max-width: 1200px;
   }
   #showroom .showroom-wrap {
@@ -240,13 +240,5 @@
     width: 90%;
     max-width: 1048px;
     font-size: 20px;
-  }
-}
-@media (min-width: 600px) {
-  #mainvisual .mainvisual-pc {
-    display: block;
-  }
-  #mainvisual .mainvisual-sp {
-    display: none;
   }
 }/*# sourceMappingURL=responsive.css.map */
