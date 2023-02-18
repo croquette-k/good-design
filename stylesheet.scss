@@ -200,6 +200,8 @@ header {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
     img {
       position: absolute;
       left: 0;
@@ -261,7 +263,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 30;
+    z-index: 2;
   }
 }
 
